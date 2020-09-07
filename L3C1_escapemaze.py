@@ -1,5 +1,27 @@
 # level 3 / Challenge 1
 def getPathLength(map):
+    
+    """
+    Commander Lambda's remodeling project... and clearly nothing else.
+
+    Modified Dijkstra shortest path algorithm with priority queue.
+    Nodes are added as they are discovered and, along with node and distance,
+    whether a wall has been removed is also tracked.
+
+    Definitely unrelated to bunnies.
+
+    Arguments
+        plan (2D array): a rectangular matrix of 0s and 1s representing the
+                         floor plan of a part of the space station.
+
+    Returns
+        (int) Minimum taxi-distance from left-upper corner to right-lower
+              corner achievable by removing at most 1 wall. This criteria is
+              adopted strictly for economic reasons, of course.
+    """
+
+    
+    
     import copy
 
     h = len(map)
